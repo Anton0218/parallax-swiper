@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Слайдер Prallax</title>
+
+  <link rel="stylesheet" href="libs/swiper/swiper-bundle.min.css">
+	<script src="libs/swiper/swiper-bundle.min.js" defer></script>
+
+  <link rel="stylesheet" href="CSS/main.css">
+  <script src="JS/app.js" defer></script>
+
+</head>
+<body>
+  <div class="swiper slider">
+    <div class="swiper-wrapper slider__wrapper">
+
+      <div class="swiper-slide slider__item">
+        <div class="slider__layer" data-swiper-parallax="40%" style="background-image: url(images/pic-1/1_IM_back.jpg);"></div>
+        <div class="slider__layer" data-swiper-parallax="30%" style="background-image: url(images/pic-1/1_IM_middle.png);"></div>
+        <div class="slider__layer" data-swiper-parallax="25%" style="background-image: url(images/pic-1/1_IM_front.png);"></div>
+      </div> 
+
+      <div class="swiper-slide slider__item">
+        <div class="slider__layer" data-swiper-parallax="35%" style="background-image: url(images/pic-2/layer-back.jpg);"></div>
+        <div class="slider__layer" data-swiper-parallax="25%" style="background-image: url(images/pic-2/layer-middle.png);"></div>
+        <div class="slider__layer" data-swiper-parallax="14%" style="background-image: url(images/pic-2/layer-front.png);"></div>
+      </div>
+
+      <div class="swiper-slide slider__item">
+        <div class="slider__layer" data-swiper-parallax="40%" style="background-image: url(images/pic-3/3_SM_back.jpg);"></div>
+        <div class="slider__layer" data-swiper-parallax="25%" style="background-image: url(images/pic-3/3_SM_middle.png);"></div>
+        <div class="slider__layer" data-swiper-parallax="15%" style="background-image: url(images/pic-3/3_SM_front.png);"></div>
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>
